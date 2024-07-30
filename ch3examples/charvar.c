@@ -7,14 +7,14 @@ int main(void){
 
 	printf("The sizeof type char is %lu byte(s). \n", sizeof(char));
 
-	charvar = 'c';
+	charvar = ',';
 
 	printf("charvar is the character %c.\n", charvar);
 	printf("It can be displayed in decimal as %d\n", charvar);
 	printf("in octal as %o or \n", charvar);
 	printf("in hexadecimal as %x. \n\n", charvar);
 
-	intvar = 73;
+	intvar = 52;
 
 	printf("Intvar is the decimal integer, %d.\n", intvar);
 	printf("It can be written in hex, %x,\nor octal, %o, ", intvar, intvar);
